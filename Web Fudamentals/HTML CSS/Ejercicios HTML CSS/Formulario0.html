@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El rey del Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="Contenedor">
+        <form>
+            <h1>Acceso</h1>
+            <p class="parrafo"> Por favor escriba su nombre, apellido y clave (Utilizar numeros, letras y caracteres especiales, MAX 6 caracteres) en los siguientes campos, 
+                despues conteste la pregunta y acceda a la plataforma que le cambiara la vida</p>
+                <p>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" class="info" name="Nombre" title="Escribe tu Nombre Acá"> 
+                </p>
+                <p>
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" class="info" name="Apellido" title="Escribe tu Apellido Acá">
+                </p>
+                <p>
+                    <label for="Password">Escriba su Contraseña</label>
+                    <input type="Password" class="info" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
+                    required maxlength="6" title="Su clave debe tener al menos 6 caracteres y utilizar Numeros, Letras y Caracteres especiales">
+                </p>
+                <h4>Esta a solo un par de Clicks</h4>
+                <label for="¿Seguro Quiere Continuar?">¿Seguro quiere Continuar?</label>
+                <Select name="¿Seguro Quiere Continuar?" class="info">
+                        <option value="Si" id="Si">Si, segurisimo</option>
+                        <Option value="No" id="No">No, dejame pensarlo Mejor</Option>
+                </Select>
+                <p>
+                    <input type="submit" id="botton" value="Enviar">
+                </p>        
+        </form>
+    </div>
+    <div class="container2"><img src="https://www.ambientum.com/wp-content/uploads/2019/10/montanas-atardecer.jpg" alt="montaña" width="350" height="350"></div>    
+</body>
+</html>

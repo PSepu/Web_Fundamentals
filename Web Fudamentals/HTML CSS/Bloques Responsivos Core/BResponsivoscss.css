@@ -1,0 +1,189 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    width: 1024px;
+    height: 580px;
+    background-color: silver;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 150px;
+    width: 1004px;
+    background-color: green;
+    display: flex;
+    margin: 10px;
+}
+.contenedorcontenidos{
+    width: 1024px;
+    height: 400px;
+    display: flex;
+}
+.navigation{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    margin-left: 10px;
+    display: flex;
+    margin-bottom: 60px;
+    padding-top: 5px;
+}
+.content{
+    height: 400px;
+    width: 795px;
+    background-color: red;
+    justify-content: left;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+.contenedorbtn{
+    width: 795px;
+    height: 230px;
+    display: flex;
+}
+.btn{
+    width: 300px;
+    height: 200px;
+    margin: 10px ;
+    background-color: yellow;
+    display: flex;
+}
+.contenedoradvertisement{
+    width: 795px;
+    height: 170px;
+    display: flex;
+}
+.advertisement{
+    height: 120px;
+    width: 770px;
+    background-color: purple;
+    display: flex;
+    margin: 10px;
+}
+@media only screen and (max-width: 600px){
+    .wrapper{
+        height: 580px;
+        width: 280px;
+    }
+    .contenedorbtn{
+        flex-direction: column;
+    }
+    .btn{
+        height: 100px;
+        width: 240px;
+    }
+    .navigation{
+    display: none;
+    }
+    .header{
+        width: 260px;
+        font-size: 5px;
+    }
+    .content{
+        width: 260px;
+    }
+    .advertisement{
+    width: 240px;
+    }
+}
+@media only screen and (min-width: 601px){
+    .wrapper{
+        height: 350px;
+        width: 280px;
+    }
+    .header{
+        width: 260px;
+        height: 70px;
+        font-size: 10px;
+    }
+    .navigation{
+    display: none;
+    }
+    .content{
+        width: 260px;
+        height: 260px;
+    }
+    .contenedorbtn{
+        display: flex;
+        width: 260px;
+        flex-wrap: wrap;
+    }
+    .btn{
+        height: 80px;
+        width: 120px;
+        margin: 10px 5px 5px 5px;
+    }
+    .advertisement{
+        height: 60px;
+        width: 250px;
+        margin: 5px 0px 0px 5px;
+    }
+@media only screen and (min-width: 1200px){
+    .wrapper{
+        width: 1024px;
+        height: 580px;
+        background-color: silver;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+}
+    .header{
+        height: 150px;
+        width: 1004px;
+        background-color: green;
+        display: flex;
+        margin: 10px;
+}
+    .contenedorcontenidos{
+        width: 1024px;
+        height: 400px;
+        display: flex;
+}
+    .navigation{
+        height: 300px;
+        width: 200px;
+        background-color: blue;
+        margin-left: 10px;
+        display: flex;
+        margin-bottom: 60px;
+        padding-top: 5px;
+}
+    .content{
+        height: 400px;
+        width: 795px;
+        background-color: red;
+        justify-content: left;
+        display: flex;
+        margin-left: 10px;
+        flex-direction: column;
+}
+    .contenedorbtn{
+        width: 795px;
+        height: 230px;
+        display: flex;
+}
+    .btn{
+        width: 240px;
+        height: 200px;
+        margin: 10px ;
+        background-color: yellow;
+        display: flex;
+}
+    .contenedoradvertisement{
+        width: 795px;
+        height: 170px;
+        display: flex;
+}
+    .advertisement{
+        height: 120px;
+        width: 770px;
+        background-color: purple;
+        display: flex;
+        margin: 10px;
+}
+} /*Preguntar a caro por el error*/

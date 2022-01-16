@@ -1,0 +1,62 @@
+/*este es un estilo para un identificador*/
+#para_id{
+    
+}
+/*este es un estilo para una CLASE */
+.parrafo{
+    color: rgb(65, 64, 64);
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    width: 350px;
+}
+
+/*
+p{
+cualquier cosa;
+}
+*/
+h1{
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif; 
+    text-align: justify;
+}
+form{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background:rgb(202, 202, 202);
+    width: 350px;
+}
+.info{
+    background:lightsteelblue;
+}
+h4{
+    color: rgb(43, 42, 42);
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;  
+}
+#botton{
+    background-color:lightgray ;
+    border-radius: 5px;
+    color: blue;
+}
+#Si{
+    color: greenyellow;
+    background: green;
+}
+#No{
+    color: red;
+    background: black;
+}
+.contenedor1{
+    display: block;
+}
+.contenedor2{
+    width: 350px;
+    height: 350px;
+    display: block;
+}

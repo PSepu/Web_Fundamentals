@@ -1,0 +1,137 @@
+.contenedorPrincipal{
+    display: flex;
+}
+.contenedorPokemon{
+    width: 1000px;
+    height: 1000px;
+}
+.pokeDex{
+    background-color: rgb(131, 133, 130);
+    width: 280px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+}
+.pokemon_name{
+    outline: 1px solid black ;
+    width: 250px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+}
+.pokemon_type{
+    outline: 1px solid black ;
+    width: 250px;
+    height: 80px;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    font-size: 20px;
+    background-color: white;
+}
+.containeraltpeso{
+    display: flex;
+}
+.pokemon_alt{
+    outline: 1px solid black ;
+    width: 120px;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    background-color: white;
+}
+.pokemon_peso{
+    outline: 1px solid black ;
+    width: 120px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    background-color: white;
+}
+.tituloNombre{
+    background-color: black;
+    width: 250px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+.tituloType{
+    background-color: black;
+    width: 250px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+}
+.tituloAlturaPeso{
+    background-color: black;
+    width: 250px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+}
+.tituloImagen{
+    background-color: black;
+    width: 250px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+}
+.pokemon_imagen{
+    outline: 1px solid black ;
+    background-color: white;
+    width: 250px;
+    height: 120px;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    font-size: 20px;
+}

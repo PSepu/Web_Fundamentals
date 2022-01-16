@@ -1,0 +1,104 @@
+.headerbox{
+    background-color: rgb(103, 103, 105);
+    border-width: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.bodybox{
+    background-color: rgb(184, 184, 187);
+    border-width: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.botonera{
+    height: 150px;
+    display: flex;
+    background-color: rgb(117, 110, 110);
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.navbtn{
+    height: 100px;
+    width: 150px;
+
+}
+.footbox{
+    background-color: rgb(68, 68, 77);
+    border-width: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.footbox li{
+    font-size: 15px;
+    line-height: 30px;
+}
+@media only screen and (max-width: 481px){
+    .footbox{
+        background-color: rgb(43, 6, 253);
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .bodybox{
+        background-color: rgb(51, 11, 124);
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .headerbox{
+        background-color: rgb(32, 8, 77);
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .navbtn{
+        background-color: rgb(86, 85, 202);
+        border-radius: 10px;
+        color: white;
+    }
+    .botonera{
+        flex-direction: column;
+        background-color: rgb(31, 28, 80);
+        color: white;
+    }
+@media only screen and (min-width: 481px){
+    .footbox{
+        background-color: rgb(153, 51, 14);
+        color: white;
+    }
+    .bodybox{
+        background-color: rgb(0, 139, 35);
+        color: tomato;
+    }
+    .headerbox{
+        background-color: rgb(133, 158, 43);
+        color: black;
+    }
+    .botonera{
+        flex-direction: column;
+    }
+@media only screen and (min-width: 1024px){
+    .footbox{
+        background-color: rgb(50, 50, 128);
+        color: white;
+    }
+    .bodybox{
+        background-color: rgb(184, 184, 187);
+        color: black;
+    }
+    .headerbox{
+        background-color: rgb(103, 103, 105);
+        color: black;
+    }
+.

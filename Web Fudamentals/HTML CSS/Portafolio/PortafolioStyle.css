@@ -1,0 +1,179 @@
+header{
+    background-color: rgb(231, 227, 227);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 40px;
+    width: 945px;
+    margin: 20px 20px 10px 20px;
+}
+header .h2{
+    display: inline;
+}
+header .h4{
+    display: inline;
+}
+.jaynedoe{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+.masterof{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-position: center;
+    background: radial-gradient(circle, rgb(94, 56, 68), black);
+    width: 985px;
+    height: 930px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.aboutgeneral{
+    display: flex;
+    align-items: flex-start;
+
+}
+.marcofoto{
+    width: 413px;
+    height: 278px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.fotoperfil{
+    width: 400px;
+}
+.aboutinfo{
+    width: 513px;
+    height: 278px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.abouttitulo{
+    background: linear-gradient(180deg, rgb(82, 81, 81),rgb(199, 196, 196));
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+    width: 513px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.abouttxt{
+    padding-left: 15px;
+}
+.aboutpresentacion{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.aboutpresstxt{
+    margin-left: 15px;
+}
+.contenido{
+    outline: 1px solid pink;
+    width: 947px;
+    height: 378px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.contenidolamonde{
+    outline: 1px solid pink;
+    width: 305px;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+}
+.titulocontenido{
+    background: linear-gradient(180deg, rgb(82, 81, 81),rgb(199, 196, 196));
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.imagenytxt{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+.fotocontenido{
+    width: 305px;
+}
+.contenidotxt{
+    background: linear-gradient(270deg, rgb(151, 150, 150),rgb(253, 250, 250));
+    width: 305px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.txt{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 10px;
+}
+.contenido2{
+    outline: 1px solid pink;
+    width: 947px;
+    height: 210px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.contenidologosgeneral{
+outline: 1px solid pink;
+width: 305px;
+height: 210px;
+display: flex;
+flex-direction: column;
+}
+.contenedorlogos{
+    background-color: white;
+    width: 305px;
+    height: 175px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.logos{
+    width: 45px;
+    height: 45px;
+    margin: 7px;
+}
+.boton{
+    height: 30px;
+    width: 120px;
+    color:white ;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 100px;
+    background-color: rgb(22, 117, 73);
+    border-color: rgb(2, 43, 2);
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 0px;
+    flex-direction: column;
+}
+.rrssfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rrsslogos{
+    width: 20px;
+    height: 20px;
+}

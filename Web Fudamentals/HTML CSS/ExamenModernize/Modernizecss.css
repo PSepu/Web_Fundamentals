@@ -1,0 +1,224 @@
+.container{
+    background-color: #1A1A1A;
+    width: 1200px;
+    height: 1400px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-image: linear-gradient(to right, #272727, #414040 50%,#272727 ) 1;
+}
+.containerhead{
+    /*outline: 1px solid pink;*/
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.callus{
+    color: #CFCFC8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+.navbar{
+    /*outline: 1px solid pink;*/
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.navbackround{
+    height: 40px;
+    width: 1200px;
+    background: linear-gradient(to bottom, #525252 50%, #252525);
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+}
+.navbackround a{
+    padding: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #88959E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.separador{
+    color: grey;
+    font-size: 30px;
+}
+.separadorfinal{
+    color: grey;
+    font-size: 38px;
+    margin-left: 350px;
+}
+.frontpageimages{
+    /*outline: solid 1px pink;*/
+    margin-top: 0px;
+    height: 435px;
+    width: 1200px;
+    border-bottom: #3B3B3B 7px solid;
+}
+.frontimage{
+    width: 1200px;
+}
+.importantinformation{
+    /*outline: 1px solid pink;*/
+    height: 200px;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    /*outline: 1px solid pink;*/
+    height: 200px;
+    width: 250px;
+    display: flex;
+    margin-right: 30px;
+}
+.logocontent{
+    /*outline: 1px solid pink;*/
+    width: 50px;
+    height: 40px;
+    display: flex;
+    margin-top: 50px;
+}
+.contenttext{
+    /*outline: 1px solid pink;*/
+    margin-left: 5px;
+    height: 150px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+}
+.contenttext h4{
+    color: #EF7F2B;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.contenttext p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.buynowsection{
+    /*outline: 1px solid pink;*/
+    height: 160px;
+    width: 1200px;
+    background: linear-gradient(135deg, #050505 25%, #272727 25%, #272727 50%, #050505 50%, #050505 75%, #272727 7%);
+    background-size:4px 4px;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buynowsection{
+    display: flex;
+    flex-direction: column;
+}
+.buynowtitle{
+    font-size: 30px;
+    margin-left: 45px;
+    margin-bottom: 0px;
+}
+.buynowcontent{
+    display: flex;
+    color: #88959E;
+}
+.buynowcontent p{
+    width: 800px;
+    margin-left: 45px;
+}
+.buynow{
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    margin-left: 160px;
+    margin-top: -10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background: linear-gradient(to bottom, #F29C5B, #EF7F2C);
+}
+.portfoliocontainer{
+    /*outline: 1px solid pink;*/
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.portfoliohead{
+    /*outline: 1px solid pink;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.portfoliohead h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.portfoliohead a{
+    text-decoration: none;
+    color: #EF7F2B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 12px;
+    margin-right: 30px;
+}
+.portfoliobody{
+    /*outline: 1px solid pink;*/
+    height: 310px;
+    display: flex;
+    justify-content: center;
+}
+.portfoliocontent{
+    /*outline: 1px solid pink;*/
+    width: 270px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+.imageborder{
+    background-color: #363636;
+    width: 266px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfoliocontent h4{
+    color: #EF7F2B;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.portfoliocontent p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 270px;
+    margin-top: 10px;
+}
+.img{
+    width: 255px;
+}
+.backtotop{
+    margin-top: 60px;
+    margin-left: 1100px;
+}
+.backtotop a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #88959E;
+}

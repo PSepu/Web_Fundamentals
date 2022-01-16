@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokemonStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Pokemon</title>
+</head>
+<body>
+    <div class="contenedorPrincipal"> 
+        <div class="contenedorPokemon"></div>
+        <div class="pokeDex">
+            <div class="tituloNombre">Nombre</div>
+            <div class="pokemon_name"></div>
+            <div class="tituloType">Tipo de Pokemon</div>
+            <div class="pokemon_type"></div>
+            <div class="tituloAlturaPeso">Altura y Peso</div>
+            <div class="containeraltpeso">
+                <div class="pokemon_alt"></div>
+                <div class="pokemon_peso"></div>
+            </div>
+            <div class="tituloImagen">Imagen</div>
+            <div class="pokemon_imagen">
+            </div>
+        </div>
+    </div>
+
+    
+    <script>
+        for (let i = 1; i <= 151; i++) {
+            $('.contenedorPokemon').append("<img id='"+i+"' src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"+i+".png' alt=''>");
+        };
+        $('img').on('click', function(){
+                console.log('id',$(this).attr('id'));
+                let pokeId= $(this).attr('id');
+                let urlPoke="https://pokeapi.co/api/v2/pokemon/"+pokeId;
+                console.log(urlPoke);
+                $.get(urlPoke, function(res) {
+                    var html_str = "";
+                    html_str += "<ul>"; 
+                    for(var i = 0; i < res.types.length; i++) {
+                        html_str += "<li>" + res.types[i].type.name + "</li>";
+                    }
+                    html_str += "</ul>";
+                    $(".pokemon_type").html(html_str);
+                }, "json");
+                $.get(urlPoke, function(res) {
+                    var html_str = "";
+                    html_str += res.name; 
+                    $(".pokemon_name").html(html_str);
+                }, "json");
+                $.get(urlPoke, function(res) {
+                    var html_str = "";
+                    html_str += res.height; 
+                    $(".pokemon_alt").html(html_str);
+                }, "json");
+                $.get(urlPoke, function(res) {
+                    var html_str = "";
+                    html_str += res.weight; 
+                    $(".pokemon_peso").html(html_str);
+                }, "json");
+                $.get(urlPoke, function(res) {
+                    var html_str = "";
+                    html_str += "<img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + pokeId + ".png' alt=''>"; 
+                    $(".pokemon_imagen").html(html_str);
+                }, "json");
+            });
+    </script>
+</body>
+</html>
